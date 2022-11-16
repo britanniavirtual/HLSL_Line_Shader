@@ -59,7 +59,7 @@ struct GS_OUTPUT
 
 struct GeoOut
 {
-	float4 PosH   : SV_POSITION;
+	float4 PosH : SV_POSITION;
 };
 
 //[Geo shader]
