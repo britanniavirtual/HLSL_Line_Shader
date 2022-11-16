@@ -5,7 +5,7 @@
 //Standard matrix buffer
 cbuffer MatrixBuffer : register(b7)
 {
-	float4x4 worldMatrix;
+	matrix worldMatrix;
 	matrix viewMatrix;
 	matrix projectionMatrix;
 };
